@@ -1,5 +1,6 @@
 import home from "./pages/home.vue";
 import sandbox from "./pages/sandbox.vue";
+import contact from "./pages/contact.vue";
 import { createRouter, createWebHistory } from "vue-router";
 
 const router = createRouter({
@@ -7,6 +8,7 @@ const router = createRouter({
   routes: [
     { path: "/", component: home },
     { path: "/sandbox", component: sandbox },
+    { path: "/contact", component: contact },
   ],
 });
 

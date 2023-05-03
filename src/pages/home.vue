@@ -1,7 +1,5 @@
-<script setup></script>
-
 <template>
-  <div class="text_accueil">
+  <div class="text-home">
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas at
     eligendi aliquam eveniet mollitia, nemo aperiam est totam sunt reprehenderit
     distinctio esse placeat dolore odit! Accusamus ut ea numquam pariatur? Lorem
@@ -12,7 +10,7 @@
     laborum voluptatum. Odio quidem saepe sequi amet earum neque, labore dolor.
     Nihil, vitae reiciendis dignissimos culpa suscipit odio.
   </div>
-  <div class="text_accueil">
+  <div class="text-home">
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas at
     eligendi aliquam eveniet mollitia, nemo aperiam est totam sunt reprehenderit
     distinctio esse placeat dolore odit! Accusamus ut ea numquam pariatur? Lorem
@@ -23,7 +21,7 @@
     laborum voluptatum. Odio quidem saepe sequi amet earum neque, labore dolor.
     Nihil, vitae reiciendis dignissimos culpa suscipit odio.
   </div>
-  <div class="text_accueil">
+  <div class="text-home">
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas at
     eligendi aliquam eveniet mollitia, nemo aperiam est totam sunt reprehenderit
     distinctio esse placeat dolore odit! Accusamus ut ea numquam pariatur? Lorem
@@ -34,7 +32,7 @@
     laborum voluptatum. Odio quidem saepe sequi amet earum neque, labore dolor.
     Nihil, vitae reiciendis dignissimos culpa suscipit odio.
   </div>
-  <div class="text_accueil">
+  <div class="text-home">
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas at
     eligendi aliquam eveniet mollitia, nemo aperiam est totam sunt reprehenderit
     distinctio esse placeat dolore odit! Accusamus ut ea numquam pariatur? Lorem
@@ -52,7 +50,8 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
 }
-.text_accueil {
+.text-home {
   margin: 1rem;
+  text-align: justify;
 }
 </style>
