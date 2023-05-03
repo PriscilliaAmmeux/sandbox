@@ -21,10 +21,9 @@ export default {
           <router-link to="/contact" class="nav-link">Contact</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/sandbox" class="nav-link">Blog</router-link>
-        </li>
-        <li class="nav-item">
-          <router-link to="/sandbox" class="nav-link">Play</router-link>
+          <router-link to="/information" class="nav-link"
+            >Informations</router-link
+          >
         </li>
       </ul>
     </nav>
@@ -44,6 +43,8 @@ export default {
   margin: 0;
   text-decoration: none;
   list-style-type: none;
+  min-width: 20%;
+  text-align: center;
 }
 
 .nav-link {
@@ -54,7 +55,6 @@ export default {
   background-color: #4caf50;
   border-radius: 1em;
   color: #fff;
-  min-width: 10rem;
 }
 
 .nav-link:hover {

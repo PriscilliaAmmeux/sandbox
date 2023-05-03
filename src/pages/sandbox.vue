@@ -6,11 +6,10 @@ import checkbox from "../components/checkbox.vue";
 import conditionalRenduring from "../components/conditionalRenduring.vue";
 import eventListeners from "../components/eventListeners.vue";
 import attributeBindings from "../components/attributeBindings.vue";
-
 </script>
 
 <template>
-   <h1>My sandbox</h1>
+  <h1>My sandbox</h1>
   <div class="grid-container">
     <div class="grid-item">
       <h2>Declative Rendering</h2>

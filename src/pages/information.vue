@@ -1,6 +1,6 @@
 <template>
-  <h1>Home</h1>
-  <div class="text-home">
+  <h1>Informations</h1>
+  <div class="text">
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas at
     eligendi aliquam eveniet mollitia, nemo aperiam est totam sunt reprehenderit
     distinctio esse placeat dolore odit! Accusamus ut ea numquam pariatur? Lorem
@@ -11,7 +11,7 @@
     laborum voluptatum. Odio quidem saepe sequi amet earum neque, labore dolor.
     Nihil, vitae reiciendis dignissimos culpa suscipit odio.
   </div>
-  <div class="text-home">
+  <div class="text">
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas at
     eligendi aliquam eveniet mollitia, nemo aperiam est totam sunt reprehenderit
     distinctio esse placeat dolore odit! Accusamus ut ea numquam pariatur? Lorem
@@ -22,18 +22,7 @@
     laborum voluptatum. Odio quidem saepe sequi amet earum neque, labore dolor.
     Nihil, vitae reiciendis dignissimos culpa suscipit odio.
   </div>
-  <div class="text-home">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas at
-    eligendi aliquam eveniet mollitia, nemo aperiam est totam sunt reprehenderit
-    distinctio esse placeat dolore odit! Accusamus ut ea numquam pariatur? Lorem
-    ipsum dolor sit amet consectetur adipisicing elit. Laudantium molestias
-    expedita, est at cum numquam repellat laborum nesciunt alias maxime, ex
-    neque illum dicta dolorum, quas unde doloribus fugiat qui. Lorem ipsum,
-    dolor sit amet consectetur adipisicing elit. Inventore minima magni officia
-    laborum voluptatum. Odio quidem saepe sequi amet earum neque, labore dolor.
-    Nihil, vitae reiciendis dignissimos culpa suscipit odio.
-  </div>
-  <div class="text-home">
+  <div class="text">
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas at
     eligendi aliquam eveniet mollitia, nemo aperiam est totam sunt reprehenderit
     distinctio esse placeat dolore odit! Accusamus ut ea numquam pariatur? Lorem
@@ -51,7 +40,7 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
 }
-.text-home {
+.text {
   margin: 1rem;
   text-align: justify;
 }

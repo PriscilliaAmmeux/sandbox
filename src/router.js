@@ -4,11 +4,12 @@ import contact from "./pages/contact.vue";
 import { createRouter, createWebHistory } from "vue-router";
 
 const router = createRouter({
-  history: createWebHistory("http://localhost:5173/"),
+  history: createWebHistory("http://localhost:5173"),
   routes: [
     { path: "/", component: home },
     { path: "/sandbox", component: sandbox },
     { path: "/contact", component: contact },
+    { path: "/information", component: information },
   ],
 });
 
