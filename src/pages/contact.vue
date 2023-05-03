@@ -60,10 +60,8 @@ body {
   border: 1px solid black;
   border-radius: 1em;
   max-width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
+  padding: 1rem;
+  margin: 10% auto;
 }
 .label {
   margin: 1rem;
@@ -73,17 +71,19 @@ body {
   border: none;
   color: white;
   padding: 15px 32px;
-  text-align: center;
   text-decoration: none;
   font-size: 16px;
   border-radius: 1rem;
   cursor: pointer;
   width: 20%;
   height: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
 .button:hover {
-  background-color: white;
-  color: #4caf50;
+  background-color: #333;
 }
 .display {
   display: flex;

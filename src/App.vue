@@ -48,13 +48,16 @@ export default {
 
 .nav-link {
   text-decoration: none;
-  color: #333;
   font-weight: bold;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
+  background-color: #4caf50;
+  border-radius: 1em;
+  color: #fff;
+  min-width: 10rem;
 }
 
 .nav-link:hover {
-  background-color: #ddd;
+  background-color: #333;
 }
 </style>
