@@ -63,7 +63,7 @@ body {
   border-radius: 1em;
   max-width: 50%;
   padding: 1rem;
-  margin: 10% auto;
+  margin: auto;
 }
 .label {
   margin: 1rem;
@@ -93,7 +93,6 @@ body {
   display: flex;
   justify-content: space-around;
   margin: 1rem;
-  max-height: 45%;
 }
 .input {
   width: 100%;
