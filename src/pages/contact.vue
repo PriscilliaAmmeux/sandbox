@@ -16,18 +16,16 @@ export default {
         name: this.name,
         message: this.message,
       };
+      Swal.fire({
+        position: "center",
+        icon: "success",
+        title: "Your message has been send",
+        showConfirmButton: false,
+        timer: 1500,
+      });
     },
   },
 };
-function submitForm() {
-  Swal.fire({
-    position: "center",
-    icon: "success",
-    title: "Your message has been send",
-    showConfirmButton: false,
-    timer: 1500,
-  });
-}
 </script>
 
 <template>
@@ -47,7 +45,7 @@ function submitForm() {
 Message</textarea
       >
     </div>
-    <button onclick="submitForm()" class="button">Send</button>
+    <button @click.prevent="submitForm()" class="button">Send</button>
   </form>
 </template>
 
