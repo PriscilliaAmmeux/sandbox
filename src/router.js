@@ -2,6 +2,7 @@ import home from "./pages/home.vue";
 import sandbox from "./pages/sandbox.vue";
 import contact from "./pages/contact.vue";
 import information from "./pages/information.vue";
+import login from "./pages/login.vue";
 import { createRouter, createWebHistory } from "vue-router";
 
 const router = createRouter({
@@ -11,6 +12,7 @@ const router = createRouter({
     { path: "/sandbox", component: sandbox },
     { path: "/contact", component: contact },
     { path: "/information", component: information },
+    { path: "/login", component: login },
   ],
 });
 

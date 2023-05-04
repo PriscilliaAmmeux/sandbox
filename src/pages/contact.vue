@@ -32,18 +32,22 @@ export default {
   <form class="form">
     <h1>Contact us</h1>
     <div class="display">
-      <label for="email" class="label">Email</label>
-      <input type="text" id="email" class="input" v-model="email" required />
+      <label for="email" class="label"
+        >Email:
+        <input type="email" id="email" class="input" v-model="email" required />
+      </label>
     </div>
     <div class="display">
-      <label for="name" class="label">Name</label>
-      <input type="text" id="name" class="input" v-model="name" required />
+      <label for="name" class="label"
+        >Name:
+        <input type="text" id="name" class="input" v-model="name" required
+      /></label>
     </div>
     <div class="display">
-      <label for="message" class="label">Message</label>
-      <textarea placeholder="votre message" class="input" required>
-Message</textarea
-      >
+      <label for="message" class="label"
+        >Message:
+        <textarea class="input" required>Message</textarea>
+      </label>
     </div>
     <button @click.prevent="submitForm()" class="button">Send</button>
   </form>
@@ -55,7 +59,7 @@ body {
   background-color: #f0f0f0;
 }
 .form {
-  border: 1px solid black;
+  border: 1px solid #ccc;
   border-radius: 1em;
   max-width: 50%;
   padding: 1rem;
@@ -63,6 +67,8 @@ body {
 }
 .label {
   margin: 1rem;
+  min-width: 90%;
+  display: block;
 }
 .button {
   background-color: #4caf50;
@@ -90,7 +96,8 @@ body {
   max-height: 45%;
 }
 .input {
-  width: 50rem;
+  width: 100%;
   height: auto;
+  border: 1px solid #ccc;
 }
 </style>
