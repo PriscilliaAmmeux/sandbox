@@ -1,6 +1,7 @@
 import home from "./pages/home.vue";
 import sandbox from "./pages/sandbox.vue";
 import contact from "./pages/contact.vue";
+import information from "./pages/information.vue";
 import { createRouter, createWebHistory } from "vue-router";
 
 const router = createRouter({
